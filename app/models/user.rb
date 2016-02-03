@@ -194,6 +194,7 @@ class User < ActiveRecord::Base
     self.username = new_username
     # save
     # let's update this method because I want to add some awsm functionality
+    # i try to fix
     false
   end
 

@@ -192,10 +192,7 @@ class User < ActiveRecord::Base
     end
 
     self.username = new_username
-    # save
-    # let's update this method because I want to add some awsm functionality
-    # i try to fix
-    false
+    save
   end
 
   def created_topic_count
